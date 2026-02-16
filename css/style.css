@@ -8,7 +8,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background-color: rgba(211, 211, 211, 0.377);
+  background-color: rgba(211, 211, 211, 0.747);
 }
 
 .container {
@@ -28,7 +28,7 @@ ul {
 
 .button_1 {
   height: 38px;
-  background: #e8491d;
+  background: rgb(24, 80, 24);
   border: 0;
   padding: 0 20px;
   color: #fff;
@@ -37,8 +37,8 @@ ul {
 
 .dark {
   padding: 15px;
-  background: #35424a;
-  color: #fff;
+  background: rgb(241, 210, 125);
+  color: rgb(123, 134, 116);
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -47,15 +47,15 @@ ul {
 ================================ */
 
 header {
-  background-color: #35424a;
-  color: white;
+  background-color: rgb(241, 210, 125);
+  color: rgb(123, 134, 116);
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: rgb(24, 80, 24) 3px solid;
 }
 
 header a {
-  color: white;
+  color: rgb(123, 134, 116);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -82,13 +82,14 @@ header nav {
 
 header .highlight,
 header .current a {
-  color: #e8491d;
+  color: rgb(24, 80, 24);
   font-weight: bold;
 }
 
 header a:hover {
   color: #ccc;
   font-weight: bold;
+  text-shadow: 1px 1px 3px black;
 }
 
 /* ===============================
@@ -101,7 +102,7 @@ header a:hover {
     center;
   background-size: cover;
   text-align: center;
-  color: white;
+  color: rgb(123, 134, 116);
 }
 
 #showcase h1 {
@@ -120,8 +121,8 @@ header a:hover {
 
 #newsletter {
   padding: 15px;
-  color: white;
-  background: #35424a;
+  color: rgb(123, 134, 116);
+  background: rgb(241, 210, 125);
 }
 
 #newsletter h1 {
@@ -199,8 +200,8 @@ ul#services li {
 footer {
   padding: 20px;
   margin-top: 20px;
-  color: white;
-  background-color: #e8491e;
+  color: rgb(123, 134, 116);
+  background-color: rgb(241, 210, 125);
   text-align: center;
   clear: both; /* safety clear */
 }
@@ -234,4 +235,17 @@ header {
 quote textarea {
   width: 100%;
   margin-bottom: 5px;
+}
+
+.about_us,
+.page-title {
+  color: rgb(24, 80, 24);
+}
+.about_us {
+  font-weight: 540;
+}
+
+.hero_text {
+  color: #ecf5d4;
+  text-shadow: 3px 2px 9px black;
 }
